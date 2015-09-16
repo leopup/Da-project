@@ -10,6 +10,7 @@ public class HealthData{
 		int userAgeSeconds = 0;
 		int userHeartBeats = 0;
 		int userCalorieIntake = 0;
+		int userBlinks = 0;
       
       System.out.println("Enter your age in years: ");
       userAgeYears = scnr.nextInt();
@@ -20,10 +21,12 @@ public class HealthData{
 		userAgeSeconds = userAgeMinutes * 60;
 		userHeartBeats = userAgeDays * 115200;
 		userCalorieIntake = userAgeDays * 2640;
+		userBlinks = userAgeDays * 23040;
 
       System.out.println("You are " + userAgeDays + " days, " + userAgeHours + " hours, " + userAgeMinutes + " minutes and " + userAgeSeconds + " seconds old");
 		System.out.println("Your heart has beated " + userHeartBeats + " times");
 		System.out.println("You have eaten " + userCalorieIntake + " calories worth of food.");
+		System.out.println("You have blinked " + userBlinks + " times, thats alot of blinks you could say you have a limited opening HAHAHAHAHAHAHAH.");
       
       return;
    }
