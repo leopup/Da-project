@@ -19,6 +19,7 @@ public class Madlib {
 		System.out.println("The animal of your creation is a " + mvmnt + " " + color + " " + animal + " " + scndAnimal);
 		System.out.print("Nice one, very CRANE-ATIVE, AHAHAAHAHAHAHAHAHAHAHAAAAAAAAAAAAAAA");
 		
+		
 		return;
 	}
 }
